@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+      </head>
+<style>
+ * 
+{
+  box-sizing: border-box;
+}
+/* body area */
+body 
+{
+font-family: Product Sans;
+font-style: normal;
+margin: 0;
+padding: 0;
+
+} 
+/* .container
+{
+
+} */
+.header
+{
+    width: 278px;
+height: 44px;
+margin-left: 60px;
+margin-top: 45px;
+} 
+.header > h1
+{
+    font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+
+/* identical to box height */
+letter-spacing: 0.05em;
+
+/* Body Text */
+color: #5B5B5B;
+}  
+.topnav
+{
+    
+margin-left: 60px;
+margin-top:45px;
+}
+.topnav a
+{
+font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.05em;
+
+/* Body Text */
+color: #5B5B5B;
+}
+.topnav a:hover
+{
+    font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.05em;
+
+/* Illustration & button assent */
+color: #F4663F;
+}
+.day
+{
+    width: 70px;
+height: 27px;
+text-align: center;
+/* Admin editor selected section bg */
+background: #FFE8E2;
+
+/* Drop shadow */
+box-shadow: 2px 3px 8px -1px rgba(0, 0, 0, 0.2);
+border-radius: 32000px;
+}
+/* .card
+{
+
+} */
+.card-header1
+{
+    
+/* Illustration & button assent */
+background: #F4663F;
+box-shadow: 2px 2px 7px -1px rgba(0, 0, 0, 0.2);
+border-radius: 5px 5px 0px 0px;
+}
+.meeting1
+{
+margin:10px 20px;
+width: 85px;
+height: 21px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+/* identical to box height */
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+
+
+}
+.card-header2
+{
+    /* Admin editor selected section bg */
+background: #FFE8E2;
+
+/* Drop shadow */
+box-shadow: 2px 3px 8px -1px rgba(0, 0, 0, 0.2);
+border-radius: 5px 5px 0px 0px;
+}
+.meeting2
+{
+    margin:10px 20px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+/* identical to box height */
+letter-spacing: 0.05em;
+
+/* Body Text */
+color: #5B5B5B;
+}
+.card-header p
+{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+/* identical to box height */
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+.slot-title
+{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.05em;
+
+/* Body Text */
+color: #5B5B5B;
+}
+.book-slot 
+{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+
+/* identical to box height */
+letter-spacing: 0.05em;
+
+/* Illustration & button assent */
+color: #F4663F;
+}
+.btn
+{
+font-size: 10px;
+margin-left:20px;
+margin-right: 30px;
+background: #FFE8E2;
+border-radius: 5px;
+}
+
+/*.btn1
+{
+font-size: 10px;
+margin-left:20px;
+padding: 5px;
+color: white;
+margin-right: 30px;
+background: #C4C4C4;
+border-radius: 5px;
+}*/
+
+h2
+{
+width: 126px;
+height: 58px;
+top: 269px;
+
+font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.05em;
+
+/* Body Text */
+color: #5B5B5B;
+}
+.today
+{
+width: 54px;
+height: 22px;
+margin-top: 45px;
+
+font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+
+/* identical to box height */
+letter-spacing: 0.05em;
+
+/* Illustration & button assent */
+color: #F4663F;
+}
+.side_met
+{
+width: 88px;
+height: 21px;
+left: 1154px;
+top: 433px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+/* identical to box height */
+letter-spacing: 0.05em;
+
+/* Body Text */
+color: #5B5B5B;
+}
+.side_date 
+{
+width: 24px;
+height: 18px;
+left: 1100px;
+top: 447px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+/* identical to box height */
+letter-spacing: 0.05em;
+
+/* Body Text */
+color: #5B5B5B;
+}
+.side_slot_time 
+{
+width: 122px;
+height: 16px;
+margin-left: 50px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.05em;
+
+/* Illustration & button assent */
+color: #F4663F;
+}
+</style>
+<body>    
+         
+            <div class="header">
+                <h1>Meeting Rooms</h1>
+            </div>
+        
+            <div class="topnav">
+                <a href="#">Overview</a>
+                <a href="#">Calender</a>               
+                <a href="#" style="float:right; margin-right:30px;">Week</a>
+                <a href="#" class="day"style="float:right; margin-right:30px;">Day</a>
+            </div>
+<div class="container" style="width:66%;">
+            <div class="row" style="margin-left: 60px; margin-top: 60px;">
+                <p style="margin-top:94px;">8th</p>
+                <div class="col-sm-4">
+                    <div class="card">      
+                        <div class="card-header1">
+                            <p class="metting1">Metting 1</p>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="slot-title">Special title treatment</h5>
+                          <p class="book-slot">Book Your Slot :</p>
+                          <a href="#" class="btn">9 to 11AM</a>
+                          <a href="#" class="btn">11 to 12AM</a>
+                          <a href="#" class="btn">1 to 2AM</a>
+                          <a href="#" class="btn">4 to 5PM</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="card">      
+                        <div class="card-header2">
+                            <p class="metting2">Metting 2</p>
+                        </div>
+                        <div class="card-body">
+                          <h5 class="slot-title">Special title treatment</h5>
+                          <p class="book-slot">Book Your Slot : (No Slots are Available)</p>
+                          <a href="#" class="btn">9 to 11AM</a>
+                          <a href="#" class="btn">11 to 12AM</a>
+                          <a href="#" class="btn">1 to 2AM</a>
+                          <a href="#" class="btn">4 to 5PM</a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <hr style="width: 1200px;
+            height: 0px;
+            margin-left: 60px;
+           
+            
+            /* Body Text */
+            border: 1px solid #5B5B5B;">
+
+<div class="row" style="margin-left: 60px; margin-top: 60px;">
+    <p style="margin-top:94px;">9th</p>
+    <div class="col-sm-4">
+        <div class="card">      
+            <div class="card-header1">
+                <p class="metting1">Metting 1</p>
+            </div>
+            <div class="card-body">
+              <h5 class="slot-title">Special title treatment</h5>
+              <p class="book-slot">Book Your Slot</p>
+              <a href="#" class="btn">9 to 11AM</a>
+              <a href="#" class="btn">11 to 12AM</a>
+              <a href="#" class="btn">1 to 2AM</a>
+              <a href="#" class="btn">4 to 5PM</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-sm-4">
+        <div class="card">      
+            <div class="card-header2">
+                <p class="metting2">Metting 2</p>
+            </div>
+            <div class="card-body">
+              <h5 class="slot-title">Special title treatment</h5>
+              <p class="book-slot">Book Your Slot</p>
+              <a href="#" class="btn">9 to 11AM</a>
+              <a href="#" class="btn">11 to 12AM</a>
+              <a href="#" class="btn">1 to 2AM</a>
+              <a href="#" class="btn">4 to 5PM</a>
+            </div>
+        </div>
+    </div>
+</div> 
+<hr style="width: 1200px;
+height: 0px;
+margin-left: 60px;
+/* Body Text */
+border: 1px solid #5B5B5B;">
+
+<div class="row" style="margin-left: 60px; margin-top: 60px;">
+    <p style="margin-top:94px;">10th</p>
+    <div class="col-sm-4">
+        <div class="card">      
+            <div class="card-header1">
+                <p class="metting1">Metting 1</p>
+            </div>
+            <div class="card-body">
+              <h5 class="slot-title">Special title treatment</h5>
+              <p class="book-slot">Book Your Slot</p>
+              <a href="#" class="btn">9 to 11AM</a>
+              <a href="#" class="btn">11 to 12AM</a>
+              <a href="#" class="btn">1 to 2AM</a>
+              <a href="#" class="btn">4 to 5PM</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-sm-4">
+        <div class="card">      
+            <div class="card-header2">
+                <p class="metting2">Metting 2</p>
+            </div>
+            <div class="card-body">
+              <h5 class="slot-title">Special title treatment</h5>
+              <p class="book-slot">Book Your Slot</p>
+              <a href="#" class="btn">9 to 11AM</a>
+              <a href="#" class="btn">11 to 12AM</a>
+              <a href="#" class="btn">1 to 2AM</a>
+              <a href="#" class="btn">4 to 5PM</a>
+            </div>
+        </div>
+    </div>
+</div> 
+<div class="container" style="width:33%; float:right;">
+    <div class="row" style="float:right; padding: 20px;" >
+        <div class="col-sm-4">
+            <div style="margin-left:100px;">
+                <div>
+                    <h2 style="font-size: 24px;">Scheduled Meeting</h2>
+                    <i class='fas fa-calendar-alt' style='font-size:36px'></i>
+                </div>
+                <div  style="display: flex;">
+                    <p class="today">Today</p>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</div>
+</div>          
+</body>
+</html>

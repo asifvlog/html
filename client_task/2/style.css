@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+  }
+  
+  body
+  {
+    background: #fefefe;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container
+  {
+    width: 100%;
+    background-color: wheat;
+  }
+.header
+{
+    width: 278px;
+height: 44px;
+margin-left: 60px;
+margin-top: 45px;
+}
+.header > h1
+{
+    font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+
+/* identical to box height */
+letter-spacing: 0.05em;
+
+/* Body Text */
+color: #5B5B5B;
+}
+
+.topnav
+{
+    
+margin-left: 60px;
+margin-top:45px;
+}
+.topnav a
+{
+font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.05em;
+
+/* Body Text */
+color: #5B5B5B;
+}
+.topnav a:hover
+{
+    font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.05em;
+
+/* Illustration & button assent */
+color: #F4663F;
+}
+
+.day
+{
+    width: 70px;
+height: 27px;
+text-align: center;
+/* Admin editor selected section bg */
+background: #FFE8E2;
+
+/* Drop shadow */
+box-shadow: 2px 3px 8px -1px rgba(0, 0, 0, 0.2);
+border-radius: 32000px;
+}
+/* .card
+{
+
+} */
+.card 
+{
+    width:350px;
+    height:150px;
+}
+.card-header1
+{
+    
+/* Illustration & button assent */
+background: #F4663F;
+box-shadow: 2px 2px 7px -1px rgba(0, 0, 0, 0.2);
+border-radius: 5px 5px 0px 0px;
+}
+.meeting1
+{
+margin:10px 20px;
+width: 85px;
+height: 21px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+/* identical to box height */
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+.card-header2
+{
+    /* Admin editor selected section bg */
+background: #FFE8E2;
+
+/* Drop shadow */
+box-shadow: 2px 3px 8px -1px rgba(0, 0, 0, 0.2);
+border-radius: 5px 5px 0px 0px;
+}
+.meeting2
+{
+    margin:10px 20px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+/* identical to box height */
+letter-spacing: 0.05em;
+
+/* Body Text */
+color: #5B5B5B;
+}
+
+.slot-title
+{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.05em;
+
+/* Body Text */
+color: #5B5B5B;
+}
+.book-slot 
+{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+
+/* identical to box height */
+letter-spacing: 0.05em;
+
+/* Illustration & button assent */
+color: #F4663F;
+}
+.btn
+{
+font-size: 10px;
+margin-left:0px;
+margin-right: 0px;
+background: #FFE8E2;
+border-radius: 5px;
+}
+.btn1
+{
+font-size: 10px;
+margin-left:0px;
+margin-right: 0px;
+background: #C4C4C4;
+border-radius: 5px;
+}
+
+.scheduled
+{
+width: 126px;
+height: 58px;
+top: 269px;
+
+font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.05em;
+
+/* Body Text */
+color: #5B5B5B;
+}
+.today
+{
+width: 100%;
+height: 22px;
+margin-top: 45px;
+
+font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+
+/* identical to box height */
+letter-spacing: 0.05em;
+
+/* Illustration & button assent */
+color: #F4663F;
+}
+
+.side_meeting
+{
+width: 88px;
+height: 21px;
+left: 1154px;
+top: 433px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+/* identical to box height */
+letter-spacing: 0.05em;
+
+/* Body Text */
+color: #5B5B5B;
+}
+
+.side_date 
+{
+width: 24px;
+height: 18px;
+left: 1100px;
+top: 447px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 5px;
+
+/* identical to box height */
+letter-spacing: 0.05em;
+
+/* Body Text */
+color: #5B5B5B;
+}
+.side_slot_time 
+{
+width: 122px;
+height: 16px;
+margin-left: 50px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 5px;
+letter-spacing: 0.05em;
+
+/* Illustration & button assent */
+color: #F4663F;
+}
+
+
+
